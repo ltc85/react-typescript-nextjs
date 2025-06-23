@@ -11,8 +11,7 @@ export default function LoginButton() {
   const handleLogin = () => {
     setIsLoading(true);
     // Simulate a login process
-    setTimeout(() => {
-      alert("Connexion réussie");
+    setTimeout(() => {      alert("Connexion réussie");
       setIsLoading(false);
     }, 2000);
   };
