@@ -9,7 +9,7 @@ export default function AuthLayout({
   return (
     <div className="min-h-screen grid grid-cols-1 md:grid-cols-2">
 
-      <aside className="bg-black flex items-center justify-center p-8">
+      <aside className="bg-black flex items-center justify-center p-8 sm:none md:flex">
         <Image
           src="/logos_bitcoin.svg"
           alt="Logo"

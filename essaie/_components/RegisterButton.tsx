@@ -1,12 +1,16 @@
-"use client";
+'use client';
 
-import React from "react";
-import Button from "./Button";
+import React from 'react';
+import { Button } from '@/components/ui/button';
 
 export default function RegisterButton() {
-    return (
-        <Button onClick={() => alert("Inscription réussie")}>
-            Inscription
-        </Button>
-    );
+  const handleClick = () => {
+    alert('Inscription réussie');
+  };
+
+  return (
+    <Button className="bg-amber-500 rounded-full" onClick={handleClick}>
+      Inscription
+    </Button>
+  );
 }
