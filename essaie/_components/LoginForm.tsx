@@ -1,6 +1,4 @@
-'use client';
-
-// Update the import path below to the correct relative path if needed
+"use client";
 import { Input } from "../components/ui/input";
 import LoginButton from './LoginButton';
 import GoogleLoginButton from './GoogleLoginButton';

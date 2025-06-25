@@ -1,5 +1,4 @@
-'use client';
-
+"use client";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
@@ -15,7 +14,7 @@ export default function LoginButton() {
   };
 
   return (
-    <Button className="bg-orange-400 text-white rounded-full" onClick={handleLogin} disabled={isLoading}>
+    <Button className="bg-amber-500 text-white rounded-full" onClick={handleLogin} disabled={isLoading}>
       {isLoading ? "Chargement..." : "Connexion"}
     </Button>
   );
